@@ -11,7 +11,7 @@ module.exports= {
         .join('ongs', 'ongs.id', '=', 'events.ong_id')
         .limit(5)
         .offset((page - 1) * 5)
-        .select('events.*', 'ongs.name', 'ongs.email');
+        .select('events.*', 'ongs.name', 'ongs.email', 'ongs.whatsapp');
 
         response.header('X-Total-Count', count['count(*)']);
 
