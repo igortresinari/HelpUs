@@ -25,8 +25,7 @@ export default StyleSheet.create({
 
     title: {
         fontSize: 30,
-        marginBottom: 16,
-        marginTop: 48,
+        marginTop: 20,
         color: '#13131a',
         fontWeight: 'bold'
     },
@@ -71,5 +70,26 @@ export default StyleSheet.create({
         color: '#2D0073',
         fontSize: 15,
         fontWeight: 'bold'
+    },
+
+    actions: {
+        marginTop: 16,
+        flexDirection: 'row',
+        justifyContent: 'center',
+    },
+
+    action: {
+        backgroundColor: '#2D0073',
+        borderRadius: 8,
+        height: 50,
+        width: '48%',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+
+    actionText: {
+        color: '#FFF',
+        fontSize: 15,
+        fontWeight: 'bold',
     },
 });

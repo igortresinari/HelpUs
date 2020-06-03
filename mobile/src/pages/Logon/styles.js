@@ -14,45 +14,21 @@ export default StyleSheet.create({
         alignItems: 'center'
     },
 
-    headerText: {
-        fontSize: 15,
-        color: '#737380',
-    },
-
-    headerTextBold: {
-        fontWeight: 'bold'
-    },
-
-    title: {
-        fontSize: 30,
-        marginBottom: 16,
-        marginTop: 48,
-        color: '#13131a',
-        fontWeight: 'bold'
-    },
-
-    description: {
-        fontSize: 16,
-        lineHeight: 24,
-        color: '#737380'
-    },
-
-    eventList: {
-        marginTop: 32
-    },
-
     event: {
         padding: 24,
         borderRadius: 8,
         backgroundColor: '#FFF',
-        marginBottom: 16
+        marginBottom: 16,
+        marginTop: 48,
     },
 
     eventProperty: {
         fontSize: 14,
         color: '#41414d',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        marginTop: 24,
     },
+
 
     eventValue: {
         marginTop: 8,
@@ -61,6 +37,43 @@ export default StyleSheet.create({
         color: '#737380'
     },
 
+    logonBox: {
+        padding: 24,
+        borderRadius: 8,
+        backgroundColor: '#FFF',
+        marginBottom: 16,
+    },
+
+    eventDescription: {
+        fontSize: 15,
+        color: '#737380',
+    },
+
+    actions: {
+        marginTop: 16,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+    },
+
+    action: {
+        backgroundColor: '#2D0073',
+        borderRadius: 8,
+        height: 50,
+        width: '48%',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+
+    actionText: {
+        color: '#FFF',
+        fontSize: 15,
+        fontWeight: 'bold',
+    },
+
+    pickerComponent: {
+        width: 350,
+    },
+    
     detailsButton: {
         flexDirection: 'row',
         justifyContent: 'space-between',
@@ -68,8 +81,8 @@ export default StyleSheet.create({
     },
 
     detailsButtonText: {
-        color: '#2D0073',
         fontSize: 15,
-        fontWeight: 'bold'
-    },
-});
+        fontWeight: 'bold',
+        color: '#2D0073'
+    }
+}) 

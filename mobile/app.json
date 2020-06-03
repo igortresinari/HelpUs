@@ -13,7 +13,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#165159"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,6 +23,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.pi2020.helpus"
     }
   }
 }

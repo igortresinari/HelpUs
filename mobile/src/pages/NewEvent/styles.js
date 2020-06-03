@@ -19,45 +19,40 @@ export default StyleSheet.create({
         borderRadius: 8,
         backgroundColor: '#FFF',
         marginBottom: 16,
-        marginTop: 48,
     },
 
-    eventProperty: {
-        fontSize: 14,
-        color: '#41414d',
-        fontWeight: 'bold',
-        marginTop: 24,
-    },
-
-
-    eventValue: {
-        marginTop: 8,
-        fontSize: 15,
-        marginBottom: 24,
-        color: '#737380'
-    },
-
-    contactBox: {
-        padding: 24,
+    input: {
+        borderWidth: 1,
+        height: 60,
+        color: '#333',
         borderRadius: 8,
-        backgroundColor: '#FFF',
-        marginBottom: 16,
+        borderColor: "#20232a",
+        marginTop: 8,
     },
 
-    eventContact: {
-        fontSize: 15,
-        color: '#41414d'
+    text: {
+        fontSize: 16,
+        color: '#41414d',
+        fontWeight: 'bold'
     },
 
-    eventDescription: {
+    detailsButton: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center'
+    },
+
+    detailsButtonText: {
         fontSize: 15,
-        color: '#737380',
+        fontWeight: 'bold',
+        color: '#2D0073',
+        marginTop: 15,
     },
 
     actions: {
         marginTop: 16,
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        justifyContent: 'center',
     },
 
     action: {
@@ -74,4 +69,4 @@ export default StyleSheet.create({
         fontSize: 15,
         fontWeight: 'bold',
     },
-}) 
+});
